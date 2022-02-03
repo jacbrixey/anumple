@@ -1,3 +1,6 @@
+Halito! This is the Choctaw language version of an open source Wordle.
+
+
 Word Guessing Game
 
 This is a clone project of a popular word guessing game made using React, Typescript, and Tailwind.
