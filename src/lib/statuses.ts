@@ -10,6 +10,7 @@ export type CharValue =
   | 'B'
   | 'C'
   | 'E'
+  | 'E̱'
   | 'F'
   | 'H'
   | 'I'
@@ -24,6 +25,7 @@ export type CharValue =
   | 'S'
   | 'T'
   | 'U'
+  | 'U̱'
   | 'W'
   | 'Y'
 
@@ -33,6 +35,7 @@ export const getStatuses = (
   guesses: string[]
 ): { [key: string]: CharStatus } => {
   const charObj: { [key: string]: CharStatus } = {}
+
 
   guesses.forEach((word) => {
     splitter.splitGraphemes(word).forEach((letter, i) => {

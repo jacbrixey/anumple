@@ -27,6 +27,7 @@ import {
 } from './lib/localStorage'
 
 import './App.css'
+import GraphemeSplitter from 'grapheme-splitter'
 
 const ALERT_TIME_MS = 2000
 
@@ -35,7 +36,7 @@ function App() {
   const prefersDarkMode = window.matchMedia(
     '(prefers-color-scheme: dark)'
   ).matches
-
+    const splitter = new GraphemeSplitter()
   const [currentGuess, setCurrentGuess] = useState('')
   const [isGameWon, setIsGameWon] = useState(false)
   const [isInfoModalOpen, setIsInfoModalOpen] = useState(false)
@@ -51,6 +52,7 @@ function App() {
       ? true
       : false
   )
+  const guesslength = splitter.splitGraphemes(currentGuess)
   const [successAlert, setSuccessAlert] = useState('')
   const [guesses, setGuesses] = useState<string[]>(() => {
     const loaded = loadGameStateFromLocalStorage()
@@ -104,7 +106,7 @@ function App() {
   }, [isGameWon, isGameLost])
 
   const onChar = (value: string) => {
-    if ((currentGuess.length < 6 ||currentGuess.length <6) && guesses.length < 6 && !isGameWon) {
+    if ((guesslength.length < 6 ||currentGuess.length <6) && guesses.length < 6 && !isGameWon) {
       setCurrentGuess(`${currentGuess}${value}`)
     }
   }
@@ -117,7 +119,7 @@ function App() {
     if (isGameWon || isGameLost) {
       return
     }
-    if (!(currentGuess.length === 6)) {
+    if (!(guesslength.length === 5)) {
       setIsNotEnoughLetters(true)
       return setTimeout(() => {
         setIsNotEnoughLetters(false)
@@ -133,7 +135,7 @@ function App() {
 
     const winningWord = isWinningWord(currentGuess)
 
-    if (currentGuess.length === 6 && guesses.length < 6 && !isGameWon) {
+    if (guesslength.length === 5 && guesses.length < 6 && !isGameWon) {
       setGuesses([...guesses, currentGuess])
       setCurrentGuess('')
 
