@@ -1,4 +1,4 @@
-Halito! This is the Choctaw language version of an open source Wordle.
+Halito! This is the Choctaw language version of an open source popular word guessing game.
 
 
 Word Guessing Game
