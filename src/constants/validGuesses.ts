@@ -35,7 +35,6 @@ export const VALIDGUESSES = [
 'ha̱kha',
 'ha̱klo',
 'haksi',
-'hatak',
 'hihla',
 'hiki̱a',
 'hla̱fa',
