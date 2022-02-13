@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6f9aa9e-4c91-488f-8e47-f1d71b092748" name="Default" comment="" />
+    <list default="true" id="b6f9aa9e-4c91-488f-8e47-f1d71b092748" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/constants/validGuesses.ts" afterPath="$PROJECT_DIR$/src/constants/validGuesses.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/constants/wordlist.ts" afterPath="$PROJECT_DIR$/src/constants/wordlist.ts" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,11 +14,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="strings.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="strings.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/constants/strings.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
               <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="validGuesses.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/constants/validGuesses.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3058">
+              <caret line="243" column="2" lean-forward="false" selection-start-line="243" selection-start-column="2" selection-end-line="243" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wordlist.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/constants/wordlist.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2400">
+              <caret line="160" column="2" lean-forward="false" selection-start-line="160" selection-start-column="2" selection-end-line="160" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -49,17 +72,17 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/public/manifest.json" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/constants/validGuesses.ts" />
-        <option value="$PROJECT_DIR$/src/constants/wordlist.ts" />
         <option value="$PROJECT_DIR$/src/components/modals/InfoModal.tsx" />
         <option value="$PROJECT_DIR$/src/constants/strings.ts" />
         <option value="$PROJECT_DIR$/src/components/keyboard/Keyboard.tsx" />
+        <option value="$PROJECT_DIR$/src/constants/validGuesses.ts" />
+        <option value="$PROJECT_DIR$/src/constants/wordlist.ts" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="310" />
-    <option name="y" value="215" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="350" />
+    <option name="y" value="25" />
     <option name="width" value="1022" />
     <option name="height" value="750" />
   </component>
@@ -162,7 +185,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="310" y="215" width="1022" height="750" extended-state="1" />
+    <frame x="350" y="25" width="1022" height="750" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28163266" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -394,20 +417,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/constants/wordlist.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/constants/validGuesses.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/modals/InfoModal.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
@@ -497,6 +506,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constants/validGuesses.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3058">
+          <caret line="243" column="2" lean-forward="false" selection-start-line="243" selection-start-column="2" selection-end-line="243" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constants/wordlist.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2400">
+          <caret line="160" column="2" lean-forward="false" selection-start-line="160" selection-start-column="2" selection-end-line="160" selection-end-column="2" />
           <folding />
         </state>
       </provider>
