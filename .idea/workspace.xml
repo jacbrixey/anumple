@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6f9aa9e-4c91-488f-8e47-f1d71b092748" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.tsx" afterPath="$PROJECT_DIR$/src/App.tsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/grid/CurrentRow.tsx" afterPath="$PROJECT_DIR$/src/components/grid/CurrentRow.tsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/grid/EmptyRow.tsx" afterPath="$PROJECT_DIR$/src/components/grid/EmptyRow.tsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/grid/Grid.tsx" afterPath="$PROJECT_DIR$/src/components/grid/Grid.tsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/modals/InfoModal.tsx" afterPath="$PROJECT_DIR$/src/components/modals/InfoModal.tsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/constants/strings.ts" afterPath="$PROJECT_DIR$/src/constants/strings.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/constants/validGuesses.ts" afterPath="$PROJECT_DIR$/src/constants/validGuesses.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/constants/wordlist.ts" afterPath="$PROJECT_DIR$/src/constants/wordlist.ts" />
-    </list>
+    <list default="true" id="b6f9aa9e-4c91-488f-8e47-f1d71b092748" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,9 +60,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="234" />
+    <option name="x" value="360" />
     <option name="y" value="25" />
-    <option name="width" value="1135" />
+    <option name="width" value="1200" />
     <option name="height" value="750" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -167,9 +157,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="234" y="25" width="1135" height="750" extended-state="0" />
+    <frame x="360" y="25" width="1200" height="750" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26258007" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2478411" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
