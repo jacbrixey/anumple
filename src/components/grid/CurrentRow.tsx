@@ -8,7 +8,7 @@ type Props = {
 export const CurrentRow = ({ guess }: Props) => {
   const splitter = new GraphemeSplitter()
   const splitGuess = splitter.splitGraphemes(guess)
-  const emptyCells = Array.from(Array(5 - splitGuess.length))
+  const emptyCells = Array.from(Array(6 - splitGuess.length))
 
   return (
     <div className="flex justify-center mb-1">

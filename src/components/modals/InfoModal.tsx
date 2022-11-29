@@ -15,36 +15,39 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="H" status="correct" />
-        <Cell value="A" />
-        <Cell value="K" />
-        <Cell value="L" />
-        <Cell value="O" />
-      </div>
-      <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter H is in the word and in the correct spot.
-      </p>
-
-      <div className="flex justify-center mb-1 mt-4">
-        <Cell value="P" />
-        <Cell value="I" />
-        <Cell value="N" status="present" />
-        <Cell value="T" />
-        <Cell value="I" />
-      </div>
-      <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter N is in the word but in the wrong spot.
-      </p>
-
-      <div className="flex justify-center mb-1 mt-4">
-        <Cell value="K" />
-        <Cell value="I" />
+        <Cell value="C" status="correct" />
+        <Cell value="H" />
+        <Cell value="U" />
         <Cell value="N" />
-        <Cell value="T" status="absent" />
+        <Cell value="N" />
         <Cell value="A" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter T is not in the word in any spot.
+        The letter C is in the word and in the correct spot.
+      </p>
+
+      <div className="flex justify-center mb-1 mt-4">
+        <Cell value="I" />
+        <Cell value="S" />
+        <Cell value="K" status="present" />
+        <Cell value="Ʋ" />
+        <Cell value="L" />
+        <Cell value="I" />
+      </div>
+      <p className="text-sm text-gray-500 dark:text-gray-300">
+        The letter K is in the word but in the wrong spot.
+      </p>
+
+      <div className="flex justify-center mb-1 mt-4">
+        <Cell value="S" />
+        <Cell value="H" />
+        <Cell value="I" />
+        <Cell value="L" status="absent" />
+        <Cell value="U" />
+        <Cell value="P" />
+      </div>
+      <p className="text-sm text-gray-500 dark:text-gray-300">
+        The letter L is not in the word in any spot.
       </p>
     </BaseModal>
   )

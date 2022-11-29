@@ -119,7 +119,7 @@ function App() {
     if (isGameWon || isGameLost) {
       return
     }
-    if (!(guesslength.length === 5)) {
+    if (!(guesslength.length === 6)) {
       setIsNotEnoughLetters(true)
       return setTimeout(() => {
         setIsNotEnoughLetters(false)
@@ -135,7 +135,7 @@ function App() {
 
     const winningWord = isWinningWord(currentGuess)
 
-    if (guesslength.length === 5 && guesses.length < 6 && !isGameWon) {
+    if (guesslength.length === 6 && guesses.length < 7 && !isGameWon) {
       setGuesses([...guesses, currentGuess])
       setCurrentGuess('')
 
