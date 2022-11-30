@@ -124,6 +124,7 @@ export const WORDS = [
 'chompa',
 'akinli',
 'bushli',
+'liteha',
 'mahaia',
 'hʋttak',
 'atobbi',

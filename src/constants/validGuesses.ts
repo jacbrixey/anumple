@@ -209,6 +209,7 @@ export const VALIDGUESSES = [
 'lakcho',
 'lʋpcho',
 'litafa',
+'liteha',
 'litoli',
 'lukoli',
 'lʋpish',
