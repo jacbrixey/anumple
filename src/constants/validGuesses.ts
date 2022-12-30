@@ -273,6 +273,8 @@ export const VALIDGUESSES = [
 'takchi',
 'takkon',
 'talali',
+'ta̱fula',
+'tala̱ya',
 'taloli',
 'tanchi',
 'tasaha',
